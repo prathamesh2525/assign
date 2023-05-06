@@ -16,7 +16,7 @@ const Dashboard = () => {
   const [popUp, setPopUp] = useState(false)
 
   return (
-    <div className="absolute min-h-screen w-full mx-auto bg-slate-100">
+    <div className="min-h-screen w-full mx-auto ">
       <div className="flex mx-auto mb-8 lg:mb-0">
         <section className="sm:ml-8 hidden lg:block bg-black text-white w-[280px] my-4 rounded-3xl">
           <div className="w-full h-[94vh] flex flex-col p-8">
